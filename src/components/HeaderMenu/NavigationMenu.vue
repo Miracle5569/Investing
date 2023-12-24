@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-import InvestingDropList from './InvestingDropList.vue'
+import InvestingDropList from '../DropDownList/InvestingDropList.vue'
 </script>
 
 <style scoped lang="scss">
