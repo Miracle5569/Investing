@@ -23,7 +23,6 @@ import InvestingDropList from '../DropDownList/InvestingDropList.vue'
   display: flex;
   justify-content: space-between;
   width: 550px;
-  //   position: relative;
 
   &-items {
     font-size: 20px;

@@ -19,7 +19,6 @@
   &:hover {
     background-color: white;
     color: black;
-    border-radius: 5px;
     text-decoration: underline;
   }
 }

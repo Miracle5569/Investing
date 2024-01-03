@@ -27,6 +27,8 @@ import dropDownList from './dropDownList.vue'
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-radius: 5px;
+    overflow: hidden;
   }
 
   &_dropdown_animate {
@@ -44,14 +46,14 @@ import dropDownList from './dropDownList.vue'
   width: 100%;
   perspective: 1000px;
   display: none;
-  &_test {
-    padding: 3px;
-    &:hover {
-      background-color: white;
-      color: black;
-      border-radius: 5px;
-    }
-  }
+  // &_test {
+  //   padding: 3px;
+  //   &:hover {
+  //     background-color: white;
+  //     color: black;
+  //     border-radius: 5px;
+  //   }
+  // }
 }
 
 @keyframes growDown {
